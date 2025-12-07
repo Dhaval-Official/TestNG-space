@@ -8,7 +8,6 @@
 				
 					<exclude name='S38' />
 					
-				
 				</methods>
 			</class>
 			<class name="test.MethodSet01" />

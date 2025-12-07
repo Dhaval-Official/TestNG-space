@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class MethodSet01 {
+//Extra for Priority check
 	
 	@Test (priority = 10)
 	public void hello2() {

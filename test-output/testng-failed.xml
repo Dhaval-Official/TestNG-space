@@ -2,16 +2,17 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="test.MethodSet12"/>
+    <listener class-name="test.MethodSet16"/>
   </listeners>
-  <test thread-count="5" name="Assertion Samples(failed)">
+  <test thread-count="5" name="Failed cases2(failed)">
     <classes>
-      <class name="test.MethodSet13">
+      <class name="test.MethodSet17">
         <methods>
-          <include name="softAssert"/>
-          <include name="hasdAssert"/>
+          <include name="test4"/>
+          <include name="test2"/>
+          <include name="test5"/>
         </methods>
-      </class> <!-- test.MethodSet13 -->
+      </class> <!-- test.MethodSet17 -->
     </classes>
-  </test> <!-- Assertion Samples(failed) -->
+  </test> <!-- Failed cases2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

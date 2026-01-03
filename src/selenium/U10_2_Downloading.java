@@ -40,11 +40,11 @@ public class U10_2_Downloading {
 			}
 		}
 
-		WebDriver driver2 = new ChromeDriver(option);
-		driver2.manage().window().maximize();
-		driver2.get("https://codenboxautomationlab.com/practice/");
+		WebDriver driver = new ChromeDriver(option);
+		driver.manage().window().maximize();
+		driver.get("https://codenboxautomationlab.com/practice/");
 
-		driver2.findElement(By.linkText("Download Apk files")).click();
+		driver.findElement(By.linkText("Download Apk files")).click();
 		Thread.sleep(40000);
 
 		File downloadedFile = new File(dfilePath + "/APKFiles-1.zip");

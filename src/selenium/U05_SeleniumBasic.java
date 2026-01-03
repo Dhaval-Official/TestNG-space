@@ -86,8 +86,8 @@ public class U05_SeleniumBasic {
 		
 		
 //U5.39 Mouse & Keyboard keys
-/*
- 		driver.manage().window().maximize();
+
+/* 		driver.manage().window().maximize();
 		driver.get("https://codenboxautomationlab.com/practice/");
 		
 		Actions a = new Actions(driver);		//Argument is the driver that will do the work
@@ -95,14 +95,17 @@ public class U05_SeleniumBasic {
 		//Hover Mouse
 		WebElement courses =  driver.findElement(By.xpath("//li[@id='menu-item-63']"));
 		a.moveToElement(courses).build().perform();
+		Thread.sleep(2000);
 		
 		//Hold Shift & Search
 		WebElement search = driver.findElement(By.xpath("(//input[@placeholder=\"Search...\"])[2]"));
 		a.moveToElement(search).click().keyDown(Keys.SHIFT).sendKeys("selenium").doubleClick().build().perform();
+		Thread.sleep(2000);
 		
 		//Right click & open in new tab
 		WebElement youtube = driver.findElement(By.linkText("Free courses on YouTube"));
 		a.moveToElement(youtube).contextClick().sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
+		Thread.sleep(2000);
 */		
 
 		
@@ -146,18 +149,18 @@ public class U05_SeleniumBasic {
 		
 
 //U5.42 Alert
-/*	
-  		driver.manage().window().maximize();
+	
+/* 		driver.manage().window().maximize();
 		driver.get("https://codenboxautomationlab.com/practice/");
 		
 		driver.findElement(By.id("name")).sendKeys("Hii");
 		driver.findElement(By.id("alertbtn")).click();
-		
+		Thread.sleep(3000);
 		String alertText = driver.switchTo().alert().getText();
 		System.out.println(alertText);
 		driver.switchTo().alert().accept();
-		
 */		
+		
 		
 		
 //U5.43 Cookies
